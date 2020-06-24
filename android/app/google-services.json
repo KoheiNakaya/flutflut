@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "483171466192",
+    "firebase_url": "https://flutflut-app.firebaseio.com",
+    "project_id": "flutflut-app",
+    "storage_bucket": "flutflut-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:483171466192:android:965fc9ad43a474404617d5",
+        "android_client_info": {
+          "package_name": "net.kojin.flutflut"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "483171466192-kid8echafm670ros1dfcih4gr5d1omus.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAi6LYMEHUeA0oOgAH7pUeMidTnBraV6Hc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "483171466192-kid8echafm670ros1dfcih4gr5d1omus.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "483171466192-qdn15jtvoi5nabo9i6qv0tdt80rvb6jv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "net.kojin.flutflut"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

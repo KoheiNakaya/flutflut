@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 
 class MainModel extends ChangeNotifier {
-  String homeText = 'Here is HOME';
+  String homeText = 'HOME2';
 
-  void changeHomeText(){
-    homeText = 'Here is HOME Provider.';
+  void changeHomeText() {
+    homeText = 'New Home PP';
     notifyListeners();
   }
-
 }

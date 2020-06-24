@@ -1,3 +1,4 @@
+import 'package:flutflut/book_list_page.dart';
 import 'package:flutflut/main_model.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -19,26 +20,29 @@ class MyApp extends StatelessWidget {
             title: Text('HOME'),
           ),
           body: Consumer<MainModel>(builder: (context, model, child) {
-              return Center(
-                child: Column(
-                  children: <Widget>[
-                    Text(
-                      model.homeText,
-                      style: TextStyle(
-                        fontSize: 30,
-                      ),
+            return Center(
+              child: Column(
+                children: <Widget>[
+                  Text(
+                    model.homeText,
+                    style: TextStyle(
+                      fontSize: 30,
                     ),
-                    RaisedButton(
-                      child: Text('Button'),
-                      onPressed: () {
-                        // ボタンを押すと反応
-                        model.changeHomeText();
-                      },
-                    ),
-                  ],
-                ),
-              );
-            }
+                  ),
+                  RaisedButton(
+                    child: Text('Button'),
+                    onPressed: () {
+                      // ボタンを押すと反応
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => BookListPage()),
+                      );
+                    },
+                  ),
+                ],
+              ),
+            );
+          }
           ),
         ),
       ),
